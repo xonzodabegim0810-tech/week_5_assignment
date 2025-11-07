@@ -40,6 +40,6 @@ close_id = 4502
 final_state, resolved = manage_tickets(initial, new, resolve_count, close_id)
 
 print("Test Case 1 Results:")
-print("final_state:", final_state)
-print("resolved:", resolved)
-print("Original list (should be unchanged):", initial)
+print(f"final_state: {final_state}" )
+print(f"resolved: {resolved}")
+print(f"Original list (should be unchanged): {initial}")
