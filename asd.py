@@ -13,7 +13,6 @@ def resolve_tickets(tickets, num_to_resolve):
 
     return resolved
 
-
 def close_ticket(tickets, ticket_id):
     i = 0
     while i < len(tickets):
